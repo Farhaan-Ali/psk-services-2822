@@ -19,11 +19,11 @@ const Footer = () => {
                 />
               </div>
               <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-500">
-                Psycotik Crew
+                KhelMitra
               </h2>
             </div>
             <p className="text-gray-300 max-w-md">
-              Professional sound and light rental service for events, concerts, and parties. Turning your events into unforgettable experiences.
+              India's premier sports facility booking platform. Connecting players with quality courts and building vibrant sporting communities.
             </p>
             <div className="flex space-x-4 pt-2">
               <a 
@@ -69,34 +69,34 @@ const Footer = () => {
               </li>
               <li>
                 <NavLink 
-                  to="/services" 
+                  to="/pricing" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Services
+                  Pricing
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/blog" 
+                  to="/about" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Blog
+                  About Us
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/references" 
+                  to="/contact" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  References
+                  Contact
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/booking" 
+                  to="/login" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Booking
+                  Login
                 </NavLink>
               </li>
             </ul>
@@ -110,7 +110,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-gray-300">
                 <Mail size={16} className="text-green-500" />
-                <span>psk-services@gmail.com</span>
+                <span>support@khelmitra.com</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-300">
                 <Facebook size={16} className="text-green-500" />
@@ -129,7 +129,7 @@ const Footer = () => {
 
         <div className="border-t border-green-500/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Psycotik Crew. All rights reserved.
+            © {new Date().getFullYear()} KhelMitra. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
